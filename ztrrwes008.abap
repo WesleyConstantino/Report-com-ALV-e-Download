@@ -199,7 +199,8 @@ FORM zf_prepara_download .
                 wa_out-updnam
                 wa_out-valfr
                 wa_out-valto
-               " vl_valor
+               " vl_valor   "Passo a variável convertida na posição desejada
+               " vl_cor
                 INTO  wa_download-linha SEPARATED BY ';'.
 
     APPEND wa_download TO t_download.
