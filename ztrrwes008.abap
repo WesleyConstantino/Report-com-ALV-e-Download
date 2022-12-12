@@ -265,7 +265,7 @@ FORM zf_seleciona_diretorio_saida .
 ENDFORM.
 
 *&---------------------------------------------------------------------*
-*&      Form  ZF_SELECIONA_DIRETORIO_SAIDA
+*&      Form  zf_msg_caminho_vazio
 *&---------------------------------------------------------------------*
 FORM zf_msg_caminho_vazio .
   IF p_dwld IS INITIAL.
