@@ -263,3 +263,13 @@ FORM zf_seleciona_diretorio_saida .
   ENDIF.
 
 ENDFORM.
+
+*&---------------------------------------------------------------------*
+*&      Form  ZF_SELECIONA_DIRETORIO_SAIDA
+*&---------------------------------------------------------------------*
+FORM zf_msg_caminho_vazio .
+  IF p_dwld IS INITIAL.
+    MESSAGE s398(00) WITH 'Informe um diretório para poder prosseguir!' DISPLAY LIKE 'E'.
+    STOP.
+  ENDIF.
+ENDFORM.
