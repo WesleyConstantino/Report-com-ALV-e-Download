@@ -68,7 +68,8 @@ START-OF-SELECTION.
   IF rb_alv = 'X'.
     PERFORM zf_exibe_alv_poo.
   ELSE.
-    PERFORM zf_prepara_download.
+     PERFORM: zf_msg_caminho_vazio,
+              zf_prepara_download.
   ENDIF.
 
 *&---------------------------------------------------------------------*
