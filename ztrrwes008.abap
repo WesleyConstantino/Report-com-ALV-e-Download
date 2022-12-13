@@ -159,8 +159,7 @@ FORM zf_prepara_download .
     "   vl_valor = wa_out-valor.
 
     CONCATENATE wa_out-acloc "Concatenate só aceita strings
-                wa_out-acloc
-                wa_out-aclocdesc
+                wa_out-aclocdesc  "Deixar na mesma ordem que a tabela transparente
                 wa_out-actn
                 wa_out-aennr
                 wa_out-blockflg
